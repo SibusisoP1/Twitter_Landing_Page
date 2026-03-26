@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <div class="main-body">
@@ -33,9 +34,12 @@
               </div>
             </div>
             <div class="sidebar-item">
-              <span class="s-item item fw-bold fs-5">
+              <a
+                href="index.html"
+                class="s-item item fs-5 fw-bold text-decoration-none text-white"
+              >
                 <span class="material-symbols-outlined"> home </span>
-                Home</span
+                Home</a
               >
             </div>
             <div class="sidebar-item">
@@ -54,18 +58,13 @@
             </div>
             <div class="sidebar-item">
               <span class="s-item item fs-5 fw-medium">
-                <span class="material-symbols-outlined"> mail </span> Chat</span
+                <span class="material-symbols-outlined"> mail </span>
+                Chat</span
               >
             </div>
             <div class="sidebar-item">
               <span class="s-item item fs-5 fw-medium">
                 <img src="assets/grok.svg" alt="grok" /> Grok</span
-              >
-            </div>
-            <div class="sidebar-item">
-              <span class="s-item item fs-5 fw-medium">
-                <i class="fs-5 bi bi-bookmark"></i>
-                Bookmarks</span
               >
             </div>
             <div class="sidebar-item">
@@ -100,9 +99,6 @@
               <div class="header-footer-profile">
                 <span>Sibusiso Masilela</span>
                 <span class="header-profile-email">@sibusiso</span>
-              </div>
-              <div class="header-footer-icon">
-                <span><img src="assets/dots.svg" alt="dots" /></span>
               </div>
             </div>
           </div>
@@ -297,7 +293,7 @@
               </div>
               <div class="footer-icon">
                 <span><i class="bi bi-heart"></i></span>
-                <span class="like-count">0</span>
+                <span class="like-count">25</span>
               </div>
               <div class="footer-icon">
                 <span class="num-impression"
@@ -306,6 +302,60 @@
                     src="assets/impression.svg"
                     alt="impression"
                   />30</span
+                >
+              </div>
+              <div class="footer-icon">
+                <span
+                  ><img src="assets/grey_bookmark.svg" alt="grey_bookmark"
+                /></span>
+                <span><img src="assets/upload.svg" alt="upload" /></span>
+              </div>
+            </div>
+          </div>
+          <div class="x-post">
+            <div class="x-post-profile">
+              <div class="x-post-profile-img">
+                <img src="assets/react.png" alt="react" />
+              </div>
+              <div class="x-post-profile-details react">
+                <span class="x-post-title fw-bold">React</span>
+                <span class="x-post-date">@reactjs · Feb 24</span>
+              </div>
+              <div class="x-icons">
+                <span class="grey_grok"
+                  ><img src="assets/grey_grok.svg" alt="grey_grok"
+                /></span>
+                <span><img src="assets/dots.svg" alt="dots" /></span>
+              </div>
+            </div>
+            <div class="x-post-details">
+              <span
+                >The React Foundation has officially launched, hosted by the
+                Linux Foundation.
+              </span>
+
+              <div class="post-details-pics react-pic">
+                <img src="assets/react_post.png" alt="react-post" />
+              </div>
+            </div>
+            <div class="post-footer">
+              <div class="footer-icon">
+                <span><i class="bi bi-chat"></i></span>
+              </div>
+              <div class="footer-icon">
+                <span><img src="assets/repeat.svg" alt="repeat" /></span>
+              </div>
+              <div class="footer-icon">
+                <span><i class="bi bi-heart"></i></span>
+                <span class="like-count">99</span>
+              </div>
+              <div class="footer-icon">
+                <span class="num-impression"
+                  ><img
+                    class="impression"
+                    src="assets/impression.svg"
+                    alt="impression"
+                  />109k</span
                 >
               </div>
               <div class="footer-icon">
@@ -359,7 +409,7 @@
               </div>
               <div class="footer-icon">
                 <span><i class="bi bi-heart"></i></span>
-                <span class="like-count">15</span>
+                <span class="like-count">10</span>
               </div>
               <div class="footer-icon">
                 <span class="num-impression"
@@ -381,13 +431,11 @@
           <div class="x-post">
             <div class="x-post-profile">
               <div class="x-post-profile-img">
-                <img src="assets/zaio.png" alt="zaio" />
+                <img src="assets/freeCodeCamp.png" alt="freeCodeCamp" />
               </div>
-              <div class="x-post-profile-details">
-                <span class="x-post-title fw-bold"
-                  >Zaio Institute of Technology</span
-                >
-                <span class="x-post-date">@zaiotech · Mar 21</span>
+              <div class="x-post-profile-details codeCamp">
+                <span class="x-post-title fw-bold">freeCodeCamp</span>
+                <span class="x-post-date">@freeCodeCamp · Mar 24</span>
               </div>
               <div class="x-icons">
                 <span class="grey_grok"
@@ -397,19 +445,15 @@
               </div>
             </div>
             <div class="x-post-details">
-              <span>Speed up your JavaScript workflow with Quokka.js</span>
               <span
-                >. Instant results, real-time error feedback, faster debugging,
-                and smoother coding sessions.
+                >For today's coding challenge, you'll get an array of student
+                exam scores and the score needed to pass the exam. Your task is
+                to return the number of students who passed. Check it out on the
+                freeCodeCamp mobile app.
               </span>
-              <span
-                ><a class="text-decoration-none" href="#">#Quokkajs</a>
-                <a class="text-decoration-none" href="#">#JavaScript</a
-                ><a class="text-decoration-none" href="#">#DevTools</a
-                ><a class="text-decoration-none" href="#">#ZaioTech</a></span
-              >
+
               <div class="post-details-pics">
-                <img src="assets/zaio-post.png" alt="zaio-post" />
+                <img src="assets/codeCampPost.png" alt="codeCampPost" />
               </div>
             </div>
             <div class="post-footer">
@@ -421,7 +465,7 @@
               </div>
               <div class="footer-icon">
                 <span><i class="bi bi-heart"></i></span>
-                <span class="like-count">0</span>
+                <span class="like-count">10</span>
               </div>
               <div class="footer-icon">
                 <span class="num-impression"
@@ -443,13 +487,11 @@
           <div class="x-post">
             <div class="x-post-profile">
               <div class="x-post-profile-img">
-                <img src="assets/zaio.png" alt="zaio" />
+                <img src="assets/react.png" alt="react" />
               </div>
-              <div class="x-post-profile-details">
-                <span class="x-post-title fw-bold"
-                  >Zaio Institute of Technology</span
-                >
-                <span class="x-post-date">@zaiotech · Mar 21</span>
+              <div class="x-post-profile-details react">
+                <span class="x-post-title fw-bold">React</span>
+                <span class="x-post-date">@reactjs · Feb 24</span>
               </div>
               <div class="x-icons">
                 <span class="grey_grok"
@@ -459,19 +501,13 @@
               </div>
             </div>
             <div class="x-post-details">
-              <span>Speed up your JavaScript workflow with Quokka.js</span>
               <span
-                >. Instant results, real-time error feedback, faster debugging,
-                and smoother coding sessions.
+                >The React Foundation has officially launched, hosted by the
+                Linux Foundation.
               </span>
-              <span
-                ><a class="text-decoration-none" href="#">#Quokkajs</a>
-                <a class="text-decoration-none" href="#">#JavaScript</a
-                ><a class="text-decoration-none" href="#">#DevTools</a
-                ><a class="text-decoration-none" href="#">#ZaioTech</a></span
-              >
-              <div class="post-details-pics">
-                <img src="assets/zaio-post.png" alt="zaio-post" />
+
+              <div class="post-details-pics react-pic">
+                <img src="assets/react_post.png" alt="react-post" />
               </div>
             </div>
             <div class="post-footer">
@@ -483,7 +519,7 @@
               </div>
               <div class="footer-icon">
                 <span><i class="bi bi-heart"></i></span>
-                <span class="like-count">0</span>
+                <span class="like-count">99</span>
               </div>
               <div class="footer-icon">
                 <span class="num-impression"
@@ -491,69 +527,7 @@
                     class="impression"
                     src="assets/impression.svg"
                     alt="impression"
-                  />30</span
-                >
-              </div>
-              <div class="footer-icon">
-                <span
-                  ><img src="assets/grey_bookmark.svg" alt="grey_bookmark"
-                /></span>
-                <span><img src="assets/upload.svg" alt="upload" /></span>
-              </div>
-            </div>
-          </div>
-          <div class="x-post">
-            <div class="x-post-profile">
-              <div class="x-post-profile-img">
-                <img src="assets/zaio.png" alt="zaio" />
-              </div>
-              <div class="x-post-profile-details">
-                <span class="x-post-title fw-bold"
-                  >Zaio Institute of Technology</span
-                >
-                <span class="x-post-date">@zaiotech · Mar 21</span>
-              </div>
-              <div class="x-icons">
-                <span class="grey_grok"
-                  ><img src="assets/grey_grok.svg" alt="grey_grok"
-                /></span>
-                <span><img src="assets/dots.svg" alt="dots" /></span>
-              </div>
-            </div>
-            <div class="x-post-details">
-              <span>Speed up your JavaScript workflow with Quokka.js</span>
-              <span
-                >. Instant results, real-time error feedback, faster debugging,
-                and smoother coding sessions.
-              </span>
-              <span
-                ><a class="text-decoration-none" href="#">#Quokkajs</a>
-                <a class="text-decoration-none" href="#">#JavaScript</a
-                ><a class="text-decoration-none" href="#">#DevTools</a
-                ><a class="text-decoration-none" href="#">#ZaioTech</a></span
-              >
-              <div class="post-details-pics">
-                <img src="assets/zaio-post.png" alt="zaio-post" />
-              </div>
-            </div>
-            <div class="post-footer">
-              <div class="footer-icon">
-                <span><i class="bi bi-chat"></i></span>
-              </div>
-              <div class="footer-icon">
-                <span><img src="assets/repeat.svg" alt="repeat" /></span>
-              </div>
-              <div class="footer-icon">
-                <span><i class="bi bi-heart"></i></span>
-                <span class="like-count">0</span>
-              </div>
-              <div class="footer-icon">
-                <span class="num-impression"
-                  ><img
-                    class="impression"
-                    src="assets/impression.svg"
-                    alt="impression"
-                  />30</span
+                  />109k</span
                 >
               </div>
               <div class="footer-icon">
@@ -594,21 +568,21 @@
           <div class="news">
             <div class="n-title">
               <span class="fw-bold fs-7"
-                >Motorcyclist survives high-speed collision with car in
-                Nigeria</span
+                >One Piece Chapter 1178 Spoilers Reveal Luffy's Clash with
+                Imu</span
               >
             </div>
             <div class="n-details">
               <span class="small-detail"
-                >Trending now · News · 1,492 posts</span
+                >9 hours ago · Entertainment · 2.3K posts</span
               >
             </div>
           </div>
           <div class="news">
             <div class="n-title">
               <span class="fw-bold fs-7"
-                >Motorcyclist survives high-speed collision with car in
-                Nigeria</span
+                >Tesla Owner Drives Model Y Hands-Free from Delivery Lot
+                Home</span
               >
             </div>
             <div class="n-details">
